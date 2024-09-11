@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT Class Schedule</title>
+    <style>
+        body {
+            font-family: "Fira Code", "Courier New", monospace; /* Programmer-style font */
+            background-color: #1e1e1e; /* Dark, subtle background */
+            color: #dcdcdc; /* Soft, off-white text */
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 85%;
+            margin: 40px auto;
+            border: 1px solid #3a3a3a;
+            border-collapse: collapse;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #3a3a3a;
+        }
+        th {
+            background-color: #252526; /* Slightly lighter than the background */
+            color: #4ec9b0; /* Cool cyan */
+            font-weight: bold;
+        }
+        td {
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            color: #4ec9b0; 
+            font-size: 50px;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(78, 201, 176, 0.7);
+        }
+        .specific-background {
+            background-color: #2d2d2d; /* Softer dark background */
+            font-weight: bold;
+            color: #569cd6; /* Gentle blue */
+        }
+        .arrival, .break, .departure {
+            background-color: rgb(15, 1, 87); /* Softer, less striking purple */
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .teacher {
+            background-color: #333333;
+            color: #9cdcfe; /* Soft light blue */
+            font-style: italic;
+        }
+        .time-cell {
+            background-color: #3c3c3c;
+            color: #d4d4d4;
+            font-weight: bold;
+            width: 100px; 
+        }
+        .sa {
+            background-color: #3c3c3c;
+            color: #c586c0; /* Soft pink/purple */
+        }
+    </style>
+</head>
+<body>
+    <h1>
+ICT CLASS SCHEDULE</h1>
+    <table>
+        <tr>
+            <th class="time-cell">Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td class="time-cell">12:30 PM - 12:55 PM (25 MINS)</td>
+            <td colspan="5" class="arrival">ARRIVAL</td>
+        </tr>
+        <tr>
+            <td class="time-cell">12:55 PM - 1:45 PM (50 MINS)</td>
+            <td class="specific-background">Computer Programming Java NC III</td>
+            <td class="specific-background">Computer Programming Java NC III</td>
+            <td class="specific-background">Computer Programming Java NC III</td>
+            <td class="specific-background">Computer Programming Java NC III</td>
+            <td class="specific-background">Homeroom Guidance</td>
+        </tr>
+        <tr>
+            <td class="sa"></td>
+            <td class="teacher" colspan="5">DE VERA</td>
+        </tr>
+        <tr>
+            <td class="time-cell">1:45 PM - 2:35 PM (50 MINS)</td>
+            <td class="specific-background">Computer Programming Java NC III</td>
+            <td class="specific-background">Computer Programming Java NC III</td>
+            <td class="specific-background">Computer Programming Java NC III</td>
+            <td class="specific-background">Computer Programming Java NC III</td>
+            <td class="specific-background">Media Information Literacy</td>
+        </tr>
+        <tr>
+            <td class="sa"></td>
+            <td class="teacher" colspan="4">DE VERA</td>
+            <td class="teacher">VALDISIMO</td>
+        </tr>
+        <tr>
+            <td class="time-cell">2:35 PM - 3:25 PM (50 MINS)</td>
+            <td class="specific-background">Understanding Culture, Society & Politics</td>
+            <td class="specific-background">Understanding Culture, Society & Politics</td>
+            <td class="specific-background">Practical Research 2</td>
+            <td class="specific-background">Practical Research 2</td>
+            <td class="specific-background">Understanding Culture, Society & Politics</td>
+        </tr>
+        <tr>
+            <td class="sa"></td>
+            <td class="teacher" colspan="2">SENANIN</td>
+            <td class="teacher" colspan="2">LAXAMANA</td>
+            <td class="teacher">SENANIN</td>
+        </tr>
+        <tr>
+            <td class="time-cell">3:25 PM - 4:15 PM (50 MINS)</td>
+            <td class="specific-background">English for Academic and Professional Purposes</td>
+            <td class="specific-background">Media Information Literacy</td>
+            <td class="specific-background">Practical Research 2</td>
+            <td class="specific-background">Practical Research 2</td>
+            <td class="specific-background">English for Academic and Professional Purposes</td>
+        </tr>
+        <tr>
+            <td class="sa"></td>
+            <td class="teacher">ARQUILLANO</td>
+            <td class="teacher">VALDISIMO</td>
+            <td class="teacher" colspan="2">LAXAMANA</td>
+            <td class="teacher">ARQUILLANO</td>
+        </tr>
+        <tr>
+            <td class="time-cell">4:15 PM - 4:30 PM (15 MINS)</td>
+            <td colspan="5" class="break">BREAK</td>
+        </tr>
+        <tr>
+            <td class="time-cell">4:30 PM - 5:20 PM (50 MINS)</td>
+            <td class="specific-background">Contemporary Philippine Arts from the Regions</td>
+            <td class="specific-background">Contemporary Philippine Arts from the Regions</td>
+            <td class="specific-background">English for Academic and Professional Purposes</td>
+            <td class="specific-background">Introduction to the Philosophy of the Human Person</td>
+            <td class="specific-background">English for Academic and Professional Purposes</td>
+        </tr>
+        <tr>
+            <td class="sa"></td>
+            <td class="teacher" colspan="2">DE GUZMAN</td>
+            <td class="teacher">VALDISIMO</td>
+            <td class="teacher">ODOÑO</td>
+            <td class="teacher">ARQUILLANO</td>
+        </tr>
+        <tr>
+            <td class="time-cell">5:20 PM - 6:10 PM (50 MINS)</td>
+            <td class="specific-background"></td>
+            <td class="specific-background">PE & Health 3</td>
+            <td class="specific-background">Introduction to the Philosophy of the Human Person</td>
+            <td class="specific-background">English for Academic and Professional Purposes</td>
+            <td class="specific-background">Media Information Literacy</td>
+        </tr>
+        <tr>
+            <td class="sa"></td>
+            <td class="teacher"></td>
+            <td class="teacher">ASEGURADO</td>
+            <td class="teacher">ODOÑO</td>
+            <td class="teacher">ARQUILLANO</td>
+            <td class="teacher">VALDISIMO</td>
+        </tr>
+        <tr>
+            <td class="time-cell">6:10 PM - 7:00 PM (50 MINS)</td>
+            <td class="specific-background">Introduction to the Philosophy of the Human Person</td>
+            <td class="specific-background">Understanding Culture, Society & Politics</td>
+            <td class="specific-background">Introduction to the Philosophy of the Human Person</td>
+            <td class="specific-background">Contemporary Philippine Arts from the Regions</td>
+            <td class="specific-background">Contemporary Philippine Arts from the Regions</td>
+        </tr>
+        <tr>
+            <td class="sa"></td>
+            <td class="teacher">ODOÑO</td>
+            <td class="teacher">SENANIN</td>
+            <td class="teacher">ODOÑO</td>
+            <td class="teacher" colspan="2">DE GUZMAN</td>
+        </tr>
+        <tr>
+            <td class="time-cell">7:00 PM - 7:15 PM</td>
+            <td colspan="5" class="departure">DEPARTURE</td>
+        </tr>
+    </table>
+</body>
+</html>
