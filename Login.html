@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Validation</title>
+    <link rel="stylesheet" href="Login.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <div class="bubbles">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:24;"></span>
+        </div>
+        <div class="form-box"> <!-- Added a new div for form box -->
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter username" required>
+                    <small id="usernameError" class="error-message"></small>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" required>
+                    <small id="passwordError" class="error-message"></small>
+                </div>
+                <button type="submit">Sign In</button>
+                <small id="successMessage" class="success-message"></small>
+            </form>
+        </div>
+    </div>
+    <script src="Login.js"></script>
+</body>
+</html>
