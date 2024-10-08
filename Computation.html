@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfromance Task 4</title>
+    <link rel="stylesheet" href="Computation.css"> <!-- Optional: Add styles if needed -->
+</head>
+<body>
+    <div class="container">
+        <h1>COMPUTATION OF GRADES</h1>
+
+        <div class="grid-container">
+            <!-- Quiz Section -->
+            <div class="box quiz-box">
+                <h2 style="text-align: center;">Quizzes</h2>
+                <label for="qRange1">Quiz 1 Score:</label>
+                <input type="number" id="qRange1">
+                <label for="totalItemsQ1">Total Items:</label>
+                <input type="number" id="totalItemsQ1"><br><br>
+
+                <label for="qRange2">Quiz 2 Score:</label>
+                <input type="number" id="qRange2">
+                <label for="totalItemsQ2">Total Items:</label>
+                <input type="number" id="totalItemsQ2"><br><br>
+
+                <label for="qRange3">Quiz 3 Score:</label>
+                <input type="number" id="qRange3">
+                <label for="totalItemsQ3">Total Items:</label>
+                <input type="number" id="totalItemsQ3"><br><br>
+
+                <button id="btnComputeQuizzes">Compute Quiz Percentage</button>
+                <p id="totalQuizzes">Total Quizzes Percentage: </p><br>
+            </div>
+
+            <!-- Exam Section -->
+            <div class="box exam-box">
+                <h2 style="text-align: center;">Exam</h2>
+                <label for="textPExam">Exam Score:</label>
+                <input type="number" id="textPExam">
+                <label for="prExam">Total Items:</label>
+                <input type="number" id="prExam"><br><br>
+
+                <button id="btnComputeExam">Compute Exam</button><br><br>
+                <label for="eEqv">Exam Equivalent:</label>
+                <input type="text" id="eEqv" readonly><br><br>
+
+                <label for="chkExam">Include 20% of Exam in Final Grade?</label>
+                <input type="checkbox" id="chkExam"><br><br>
+
+                <label for="txtPercentage">Exam 20% Equivalent:</label>
+                <input type="text" id="txtPercentage" readonly><br><br>
+            </div>
+
+            <!-- Performance Task Section -->
+            <div class="box performance-box">
+                <h2 style="text-align: center;">Performance Task</h2>
+                <label for="performancePercentage">Performance Task Percentage (Out of 100):</label>
+                <input type="number" id="performancePercentage"><br><br>
+            </div>
+
+            <!-- Final Grade Section -->
+            <div class="box final-grade-box">
+                <h2 style="text-align: center;">Final Grade</h2>
+                <button id="btnComputeGrade">Compute Final Grade</button>
+                <br><br>
+                <label for="txtGrade">Final Grade:</label>
+                <input type="text" id="txtGrade" readonly><br><br>
+            </div>
+        </div>
+    </div>
+
+    <script src="Computation.js"></script>
+</body>
+
+</html>

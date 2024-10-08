@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f; 
+    background-image: linear-gradient(135deg, #0d0d0d 40%, #141414 100%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    align-items: center;
+    position: relative;
+    left: 200px;
+    color: whitesmoke;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto;
+    gap: 20px; 
+    position: absolute;
+    right: 250px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 255, 255, 0.6); 
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    backdrop-filter: blur(20px); 
+}
+
+.quiz-box, .exam-box, .performance-box, .final-grade-box {
+    text-align: justify;
+    white-space: nowrap;
+    color: #00ffff; 
+}
+
+button {
+    background-color: #1a1a1a; 
+    color: #00ffff; 
+    border: none;
+    padding: 10px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    white-space: nowrap;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ffff; /* Neon hover effect */
+    color: #1a1a1a; /* Dark text on hover */
+    box-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
+}
+
+/* Styling inputs */
+input[type="number"], input[type="text"] {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    background-color: #1a1a1a; /* Dark input */
+    color: #00ffff; /* Neon cyan text */
+    border: 1px solid #00ffff;
+    border-radius: 5px;
+}
+
+input[readonly] {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent for readonly inputs */
+    color: #00ffff;
+}
+
+/* Checkbox styling */
+label {
+    display: inline-block;
+    margin-right: 10px;
+    color: #00ffff; /* Neon cyan text for labels */
+}
